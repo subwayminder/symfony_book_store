@@ -8,10 +8,10 @@ use App\Entity\Book;
 
 
 
-class LuckyController extends Controller
+class Landing extends Controller
 {
     /**
-     * @Route("/lucky/number")
+     * @Route("/landing/")
      */
     public function number()
     {
