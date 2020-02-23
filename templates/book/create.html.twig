@@ -1,6 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
 <form method="post">
-    <input type="text" name="name" value="">
-    <input type="text" name="year" value="">
-    <input type="text" name="author" value="">
+
+    <div class="row">
+        <div class="col-lg-12 offset-1">
+            <label>Название</label>
+            <input type="text" name="name" value="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 offset-1">
+            <label>Год</label>
+            <input type="text" name="year" value="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 offset-1">
+            <label>Автор</label>
+            <input type="text" name="author" value="">
+        </div>
+    </div>
+
     <button type="submit">Добавить</button>
 </form>
+
+{% endblock %}
